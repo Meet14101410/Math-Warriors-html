@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Warriors</title>
+</head>
+<body>
+    <h1>⚔️ Math Warriors ⚔️</h1>
+    <p>Solve math problems and become a champion!</p>
+
+    <p>5 + 7 = ?</p>
+    <input type="number" id="ans">
+    <button onclick="check()">Attack</button>
+
+    <p id="result"></p>
+
+    <script>
+        function check() {
+            document.getElementById("result").innerHTML =
+                (ans.value == 12) ? "Victory!" : "Try Again!";
+        }
+    </script>
+</body>
+</html>
