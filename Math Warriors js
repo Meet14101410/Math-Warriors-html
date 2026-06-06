@@ -1,0 +1,8 @@
+function check() {
+    let answer = document.getElementById("ans").value;
+    let result = document.getElementById("result");
+
+    result.innerHTML = (answer == 12)
+        ? "⚔️ Victory! You defeated the Math Monster!"
+        : "❌ Wrong Answer! Try Again!";
+}
